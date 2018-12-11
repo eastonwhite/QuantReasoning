@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Quantitative Reasoning (BIO381)</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+<li>
+  <a href="lab_schedule.html">Lab schedule</a>
+</li>
+<li>
+  <a href="useful_links.html">Useful links</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="schedule" class="section level1">
+<h1>Schedule</h1>
+<table class="table table-striped" style="width: auto !important; ">
+<thead>
+<tr>
+<th style="text-align:right;">
+Class
+</th>
+<th style="text-align:left;">
+Date
+</th>
+<th style="text-align:left;">
+Topic
+</th>
+<th style="text-align:left;">
+Assignment
+</th>
+<th style="text-align:left;">
+Readings
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+1
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+14-Jan
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Introduction to course and modeling philosophy
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Watch video at home and read papers
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+<a href="https://www.jstor.org/stable/pdf/27836590.pdf">Levins 1966</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+16-Jan
+</td>
+<td style="text-align:left;width: 10em; ">
+Intro population ecology and single-species models
+</td>
+<td style="text-align:left;width: 10em; ">
+Start problem set
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+21-Jan
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+No class
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+23-Jan
+</td>
+<td style="text-align:left;width: 10em; ">
+Single-species models: in-class problem set
+</td>
+<td style="text-align:left;width: 10em; ">
+Finish problem set, watch lecture video
+</td>
+<td style="text-align:left;width: 10em; ">
+<a href="http://science.sciencemag.org/content/sci/186/4164/645.full.pdf">May 1974</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+4
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+28-Jan
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Structured pop models
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+<a href="https://www.jstor.org/stable/pdf/1939225.pdf">Crouse 1987</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:left;">
+30-Jan
+</td>
+<td style="text-align:left;width: 10em; ">
+Structured pop models
+</td>
+<td style="text-align:left;width: 10em; ">
+Finish problem set
+</td>
+<td style="text-align:left;width: 10em; ">
+<a href="http://www.zoology.ubc.ca/courses/bio416/Hanski_Nature_1998.pdf">Hanski 1998</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+6
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+4-Feb
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Spatial ecology
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Species invasion spread speeds paper
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:left;">
+6-Apr
+</td>
+<td style="text-align:left;width: 10em; ">
+Spatial ecology
+</td>
+<td style="text-align:left;width: 10em; ">
+Mini-project
+</td>
+<td style="text-align:left;width: 10em; ">
+Vellend et al 2003, Mittleback et al 2007
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+8
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+11-Feb
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Patterns of biodiversity
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Classic lit on latitudinal species gradient
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:left;">
+13-Feb
+</td>
+<td style="text-align:left;width: 10em; ">
+Introduction to evolution
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+10
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+18-Feb
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+No class
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:left;">
+20-Feb
+</td>
+<td style="text-align:left;width: 10em; ">
+Population Genetics
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+<td style="text-align:left;width: 10em; ">
+From Coop course, DEJA vu paper
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+11
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+25-Feb
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Population Genetics
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Problem set
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Bay et al paper on modeling corals
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:left;">
+27-Feb
+</td>
+<td style="text-align:left;width: 10em; ">
+Quantitative Genetics
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+<td style="text-align:left;width: 10em; ">
+Reznick et al 1997?
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+13
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+4-Mar
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Quantitative Genetics
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Problem set
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:left;">
+6-Mar
+</td>
+<td style="text-align:left;width: 10em; ">
+Game theory
+</td>
+<td style="text-align:left;width: 10em; ">
+Relax
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+11-15 Mar
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Spring Recess
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:left;">
+18-Mar
+</td>
+<td style="text-align:left;width: 10em; ">
+Speciation and infectious diseases
+</td>
+<td style="text-align:left;width: 10em; ">
+HIV problem set
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+16
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+20-Mar
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Speciation and infectious diseases
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:left;">
+25-Mar
+</td>
+<td style="text-align:left;width: 10em; ">
+Species interactions and co-evolution
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+18
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+27-Mar
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Species interactions and co-evolution
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+<a href="http://bio.classes.ucsc.edu/bioe107/Scheffer%202001%20Nature.pdf">Scheffer et al 2001</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:left;">
+1-Apr
+</td>
+<td style="text-align:left;width: 10em; ">
+Hystesis and regime shifts
+</td>
+<td style="text-align:left;width: 10em; ">
+Project proposals due
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+20
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+3-Apr
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Hystesis and regime shifts
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:left;">
+8-Apr
+</td>
+<td style="text-align:left;width: 10em; ">
+Coupled models
+</td>
+<td style="text-align:left;width: 10em; ">
+R problem set
+</td>
+<td style="text-align:left;width: 10em; ">
+Coral reef and forest paper
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+22
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+10-Apr
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Coupled models
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+23
+</td>
+<td style="text-align:left;">
+15-Apr
+</td>
+<td style="text-align:left;width: 10em; ">
+Epidemiology
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+<td style="text-align:left;width: 10em; ">
+[Kermack and McKendrick 1927]
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+24
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+17-Apr
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Epidemiology
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Finish problem set
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:left;">
+22-Apr
+</td>
+<td style="text-align:left;width: 10em; ">
+Flex-time
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;color: black;background-color: #E8E8E8;">
+26
+</td>
+<td style="text-align:left;color: black;background-color: #E8E8E8;">
+24-Apr
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+Flex-time
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+<td style="text-align:left;width: 10em; color: black;background-color: #E8E8E8;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:left;">
+29-Apr
+</td>
+<td style="text-align:left;width: 10em; ">
+Presentations
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+28
+</td>
+<td style="text-align:left;">
+1-May
+</td>
+<td style="text-align:left;width: 10em; ">
+Presentations
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+<td style="text-align:left;width: 10em; ">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

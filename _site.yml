@@ -3,7 +3,11 @@ output_dir: "."
 navbar:
   title: "Quantitative Reasoning (BIO381)"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About Me"
-      href: about.html
+    - text: "Syllabus"
+      href: syllabus.html
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Lab schedule"
+      href: lab_schedule.html
+    - text: "Useful links"
+      href: useful_links.html

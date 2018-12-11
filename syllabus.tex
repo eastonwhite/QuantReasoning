@@ -1,0 +1,311 @@
+\documentclass[12pt,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{}
+  \pretitle{\vspace{\droptitle}}
+  \posttitle{}
+  \author{}
+  \preauthor{}\postauthor{}
+  \date{}
+  \predate{}\postdate{}
+
+\usepackage{multirow}
+
+\begin{document}
+
+\section{Foundations of Quantitative Reasoning
+(BIO381)}\label{foundations-of-quantitative-reasoning-bio381}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\section{Syllabus and Course Outline}\label{syllabus-and-course-outline}
+
+University of Vermont
+
+Spring 2019
+
+Instructors: \textbf{Dr.~Easton R. White}
+
+email:
+\href{mailto:Easton.White@uvm.edu}{\nolinkurl{Easton.White@uvm.edu}}
+
+Time: M/W 3:00pm - 5:00pm + additional lab time on Friday?
+
+Location: Hills 226
+
+\section{Course Introduction}\label{course-introduction}
+
+Welcome to the \href{https://www.uvm.edu/quest}{QuEST} Foundations of
+Quantitative Reasoning course. This course is designed to provide
+students with a solid background in both ecology and evolution as well
+as commonly used quantitative tools. By the end of the course, students
+should be able to:
+
+\subsubsection{Concepts}\label{concepts}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Understand basic concepts in population and community ecology
+\item
+  Compare and contrast different modeling philosophies
+\item
+  Analyze simple population models using qualitative approaches
+\item
+  Use linear algebra to construct and analyze structured population
+  models
+\item
+  Understand foundations of spatial ecology and build simple models
+\item
+  Compare and contrast hypotheses that attempt to explain basic patterns
+  in biodiversity.
+\item
+  Understand principles of evolution and natural selection
+\item
+  Understand and apply various tools to understand evolution (population
+  genetics, quantitative genetics, and game theory)
+\item
+  Understand and apply simple models to study infectious disease
+  dynamics
+\item
+  Describe how humans affect ecological and evolutionary dynamics
+\item
+  Read and discuss papers that involve modeling
+\item
+  Construct and program simple population models in R
+\item
+  Understand and apply a variety of mathematical tools (equilibrium and
+  stability analysis, linear algebra, stochastic models, etc.)
+\item
+  Work in small, collaborative groups to find solutions to particular
+  case studies.
+\end{enumerate}
+
+\subsubsection{Skills}\label{skills}
+
+This is clearly a lot of objectives and material to cover in one
+semester. However, there will be lots of time to ask questions and to
+have discussions. The format of the class will change from day to day,
+but will include a combination of lecturing, problem-solving activities,
+discussions, and working in small groups.
+
+As a four-credit course, you should expect do spend at least six hours a
+week reading and working on problems. The more time and effort you put
+in, the more you will get out of this course.
+
+Any and all of the content of this syllabus is subject to change as we
+go through the course. The material will be tailored to fit the needs of
+the class. Changes will be announced in-class and electronically.
+
+\section{Course resources}\label{course-resources}
+
+\paragraph{Your classmates}\label{your-classmates}
+
+By its very nature, this course will challenge each student during
+different points. The ecology and evolution may be challenging for those
+with little biology background and the quantitative skills may be
+difficult to pick up for those of you with traditional biology
+backgrounds. It will be essential to work with others on
+assignments---just be sure that you understand the material yourself.
+
+\paragraph{Your instuctor}\label{your-instuctor}
+
+I will hold office hours several times per week and I am always happy to
+set up additional times to meet. Please ask for help, early and often.
+If you have a question, others in the class surely have the same one. At
+any point, please reach out to let me know how I might improve the
+course.
+
+\paragraph{R office hours}\label{r-office-hours}
+
+In addition to normal office hours, every other week there will be an R
+work time in Jeffords. This is a time to get help on R for this class,
+other classes, or for your research. Occasionally, mini-workshops on
+various R topics will also be taught during this time.
+
+\paragraph{Various textbooks}\label{various-textbooks}
+
+This course will not follow any particular textbook. However, I will
+draw from several books and online sources:
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://github.com/cooplab/popgen-notes}
+\item
+  \url{https://www.amazon.com/Primer-Ecology-Fourth-Nicholas-Gotelli/dp/0878933182/ref=pd_bbs_sr_1?ie=UTF8\&s=books\&qid=1231604546\&sr=8-1}
+\item
+  \url{https://www.amazon.com/Population-Biology-Concepts-Alan-Hastings/dp/0387948538}
+\end{itemize}
+
+\paragraph{Various online tools}\label{various-online-tools}
+
+Calculus a bit rusty? Maybe you're not totally remembering Mendelian
+genetics? Something else? We will walk through topics from the
+beginning, but there might be points that still seem confusing. Besides
+your classmates and instructor, there are a plethora of online tools to
+help provide a quick refresher:
+
+\begin{itemize}
+\tightlist
+\item
+  \url{http://tutorial.math.lamar.edu/}
+\item
+  \url{https://www.khanacademy.org/}
+\end{itemize}
+
+\section{Grading Standards and
+Practices}\label{grading-standards-and-practices}
+
+\paragraph{Problem sets: 12 @ 5 points
+each}\label{problem-sets-12-5-points-each}
+
+Every week there will be assigned problem sets. These will involve a mix
+of math done on paper and programming in R. The problem sets will either
+be turned in on paper or on Github depending on the assignment. Some
+problem sets will be individual-based and others will be in small teams.
+
+\paragraph{Group project: 30 points}\label{group-project-30-points}
+
+The final project will involve building a model to understand some
+system. The choice of system, modeling approach, and question will be up
+to each team. The teams will be between 2-3 students. Think of this
+project as an opportunity that could lead to a publication.
+
+\paragraph{Teaching a lesson: 30
+points}\label{teaching-a-lesson-30-points}
+
+Everyone will be expected to teach one class (or lab) during the course
+of the semester. The specific lesson will be chosen by the student. The
+student will work with the instructor to design the lesson in line with
+learning outcomes for the course.
+
+\paragraph{Participation: 30 points}\label{participation-30-points}
+
+Students will be expected to be engaged\ldots{}
+
+\section{Academic honesty}\label{academic-honesty}
+
+Students in the class are expected to complete their own work. It is
+encouraged that you work with other students outside of class, but your
+completed work must be from you and in your own words. Students are
+expected to follow UVM policy on plagiarism, fabrication, collusion, and
+cheating: \url{http://www.uvm.edu/policies/student/acadintegrity.pdf}.
+
+\section{Student Learning
+Accomadations}\label{student-learning-accomadations}
+
+In keeping with University policy, any student with a documented
+disability interested in utilizing accommodations should contact SAS,
+the office of Disability Services on campus. SAS works with students and
+faculty in an interactive process to explore reasonable and appropriate
+accommodations, which are communicated to faculty in an accommodation
+letter. All students are strongly encouraged to meet with their faculty
+to discuss the accommodations they plan to use in each course. A
+student's accommodation letter lists those accommodations that will not
+be implemented until the student meets with their faculty to create a
+plan. Contact SAS: A170 Living/Learning Center; 802-656-7753.
+
+Contact Student Accessibility Services (SAS):
+
+\begin{itemize}
+\tightlist
+\item
+  A170 Living/Learning Center
+\item
+  802-656-7753
+\item
+  \href{mailto:access@uvm.edu}{\nolinkurl{access@uvm.edu}}
+\item
+  \url{https://www.uvm.edu/academicsuccess/student_accessibility_services}
+\end{itemize}
+
+\section{Student health and
+wellbeing}\label{student-health-and-wellbeing}
+
+There are several resources on campus dedicated to promoting student
+health and well-being, including:
+
+\begin{itemize}
+\item
+  Center for Health and Wellbeing \url{https://www.uvm.edu/health}
+\item
+  Counseling \& Psychiatry Services (CAPS)
+  \url{https://www.uvm.edu/health/CAPS}
+\end{itemize}
+
+\section{Schedule}\label{schedule}
+
+
+\end{document}
