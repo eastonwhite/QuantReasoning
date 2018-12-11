@@ -15,12 +15,7 @@ editor_options:
 ---
 
 
-```{r, echo=FALSE}
-htmltools::img(src = knitr::image_uri(file.path('images/QuEST_logo.png')), 
-               alt = 'logo',
-               width = "300",
-               style = 'position:absolute; top:0; right:0; padding:10px;')
-```
+
 
 
 
@@ -173,6 +168,4 @@ All students are expected to adhere...
 Sexual harassment includes any unwelcome verbal or physical conduct of sexual nature 
 -->
 
-
-# Schedule
 
