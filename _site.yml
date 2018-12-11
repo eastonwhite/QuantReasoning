@@ -1,0 +1,9 @@
+name: "quant-reasoning"
+output_dir: "."
+navbar:
+  title: "Quantitative Reasoning (BIO381)"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html

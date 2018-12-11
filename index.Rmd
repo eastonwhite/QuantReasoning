@@ -1,0 +1,25 @@
+---
+title: "Main page"
+output: html_document
+---
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+<div class="row" style="padding-top: 30px;">
+<div class="col-sm-6">
+
+# **Foundations of Quantitative Reasoning (BIO381)**
+
+### Dr. Easton R White {style="padding-top: 0px;"}
+### Spring 2019 {style="padding-top: 0px;"}
+
+Welcome to your course
