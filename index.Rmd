@@ -2,6 +2,13 @@
 output: html_document
 ---
 
+```{r, echo=FALSE}
+htmltools::img(src = knitr::image_uri(file.path('images/QuEST_logo.png')), 
+               alt = 'logo',
+               width = "400",
+               style = 'float: right; top:0; right:0; padding:10px;')
+```
+
 
 # **Foundations of Quantitative Reasoning (BIO381)**
 
@@ -9,4 +16,6 @@ output: html_document
 #### Spring 2019 
 #### University Of Vermont
 
-Welcome to your course
+<br><br><br><br>
+
+Welcome to the [QuEST](https://www.uvm.edu/quest) Foundations of Quantitative Reasoning course. This course is designed to provide students with a solid background in both ecology and evolution as well as commonly used quantitative tools. This website will be updated throughout the semester. The [Schedule](https://erwhite1.github.io/QuantReasoning/schedule.html) tab lists the topics covered and links to lecture material, assignments, and required readings.
