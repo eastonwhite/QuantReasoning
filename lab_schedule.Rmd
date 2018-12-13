@@ -2,22 +2,20 @@
 output: html_document
 ---
 
-# Schedule
+# Lab schedule
 
 ```{r echo = FALSE, results = 'asis',warning=FALSE,message=FALSE}
 library(knitr)
 library(kableExtra)
 library(pander)
-mytable = read.csv('schedule.csv',header=T)
+mytable = read.csv('lab_schedule.csv',header=T)
 
 options(knitr.kable.NA = '')
 kable(mytable, longtable = TRUE) %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "left") %>% 
-  column_spec(2, width = "5em") %>%
   column_spec(3, width = "20em") %>%
   column_spec(4, width = "20em") %>%
-  column_spec(5, width = "20em") %>%
-  row_spec(seq(1,30,2), bold = F, color = "black", background = "#E8E8E8")
+  row_spec(seq(1,16,2), bold = F, color = "black", background = "#E8E8E8")
 #pander::pander(mytable, keep.line.breaks = TRUE, style = 'grid', justify = 'left')
 
 ```
