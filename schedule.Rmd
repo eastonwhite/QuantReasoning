@@ -4,6 +4,8 @@ output: html_document
 
 # Schedule
 
+For each date, the readings are what you should read for the next class period. For example, May 1974 should be read in advance of class on Jan 23rd. 
+
 ```{r echo = FALSE, results = 'asis',warning=FALSE,message=FALSE}
 library(knitr)
 library(kableExtra)
