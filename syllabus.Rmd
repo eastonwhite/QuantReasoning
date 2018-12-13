@@ -17,6 +17,12 @@ editor_options:
 
 
 
+```{r, echo=FALSE}
+htmltools::img(src = knitr::image_uri(file.path('images/QuEST_logo.png')), 
+               alt = 'logo',
+               width = "400",
+               style = 'float: right; top:0; right:0; padding:10px;')
+```
 
 
 
@@ -30,19 +36,19 @@ University of Vermont
 
 Spring 2019
 
-Instructors: __Dr. Easton R. White__
+Instructor: __Dr. Easton R. White__
 
 email: Easton.White@uvm.edu
 
-Time: M/W 3:00pm - 5:00pm + additional lab time on Friday?
+Time: M/W 3:00-5:00pm Hills 226 and F 2:30-4:30pm Jeffords 353A
 
-Location: Hills 226
+Office hours: TBD
  
 
 
 # Course Introduction
 
-Welcome to the [QuEST](https://www.uvm.edu/quest) Foundations of Quantitative Reasoning course. This course is designed to provide students with a solid background in both ecology and evolution as well as commonly used quantitative tools. By the end of the course, students should be able to:
+Welcome to the [QuEST](https://www.uvm.edu/quest) Foundations of Quantitative Reasoning course. There are no specific prerequisites for this course, but students should have some experience programming in R, using Github, and with basic math and statistics. This course is designed to provide students with a solid background in both ecology and evolution as well as commonly used quantitative tools. By the end of the course, students should be able to:
 
 ### Concepts 
 1. Understand basic concepts in population and community ecology
@@ -55,16 +61,20 @@ Welcome to the [QuEST](https://www.uvm.edu/quest) Foundations of Quantitative Re
 8. Understand and apply various tools to understand evolution (population genetics, quantitative genetics, and game theory)
 9. Understand and apply simple models to study infectious disease dynamics 
 10. Describe how humans affect ecological and evolutionary dynamics
+
+
+### Skills
+
 11. Read and discuss papers that involve modeling
 12. Construct and program simple population models in R
 13. Understand and apply a variety of mathematical tools (equilibrium and stability analysis, linear algebra, stochastic models, etc.)
 14. Work in small, collaborative groups to find solutions to particular case studies.
+15. Apply basic pedagological principles in designing a lesson
 
-### Skills
 
-This is clearly a lot of objectives and material to cover in one semester. However, there will be lots of time to ask questions and to have discussions. The format of the class will change from day to day, but will include a combination of lecturing, problem-solving activities, discussions, and working in small groups. 
+This is clearly a lot of concepts and skills to cover in one semester. However, there will be lots of time to ask questions and to have discussions. The format of the class will change from day to day, but will include a combination of lecturing, problem-solving activities, discussions, and working in small groups. 
 
-As a four-credit course, you should expect do spend at least six hours a week reading and working on problems. The more time and effort you put in, the more you will get out of this course. 
+You should be able to complete most assignments within the alotted classtime, but plan to spend a couple of hours each week outside of class reading papers and finishing assignments. The more time and effort you put in, the more you will get out of this course. 
 
 Any and all of the content of this syllabus is subject to change as we go through the course. The material will be tailored to fit the needs of the class. Changes will be announced in-class and electronically. 
  
@@ -77,7 +87,7 @@ By its very nature, this course will challenge each student during different poi
 
 #### Your instuctor
 
-I will hold office hours several times per week and I am always happy to set up additional times to meet. Please ask for help, early and often. If you have a question, others in the class surely have the same one. At any point, please reach out to let me know how I might improve the course.
+I will hold office hours several times per week (time to be determined) and I am always happy to set up additional times to meet. Please ask for help, early and often. If you have a question, others in the class surely have the same one. There will be several opportunities to provide formal feedback on the course, but at any point, please reach out to let me know how I might improve the course. Email is the best way to get ahold of me. You can expect a response within 24 hours except on weekends and holidays when I do not check my email.
 
 #### R office hours
 
@@ -87,16 +97,17 @@ In addition to normal office hours, every other week there will be an R work tim
 
 This course will not follow any particular textbook. However, I will draw from several books and online sources:
 
-* https://github.com/cooplab/popgen-notes
-* https://www.amazon.com/Primer-Ecology-Fourth-Nicholas-Gotelli/dp/0878933182/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1231604546&sr=8-1
-* https://www.amazon.com/Population-Biology-Concepts-Alan-Hastings/dp/0387948538
+* [Graham Coop's population genetics notes](https://github.com/cooplab/popgen-notes)
+* [Gotelli, Nicholas J. A primer of ecology. No. 577.88 G6. Sunderland, Massachusetts, USA: Sinauer Associates, 2008.
+](https://www.amazon.com/Primer-Ecology-Fourth-Nicholas-Gotelli/dp/0878933182/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1231604546&sr=8-1)
+* [Hastings, Alan, Population biology: concepts and models. Springer Science & Business Media, 2013.](https://www.amazon.com/Population-Biology-Concepts-Alan-Hastings/dp/0387948538)
      
 #### Various online tools
 
 Calculus a bit rusty? Maybe you're not totally remembering Mendelian genetics? Something else? We will walk through topics from the beginning, but there might be points that still seem confusing. Besides your classmates and instructor, there are a plethora of online tools to help provide a quick refresher: 
 
-* http://tutorial.math.lamar.edu/
-* https://www.khanacademy.org/
+* [Paul's Online Notes](http://tutorial.math.lamar.edu/)
+* [Khan Academy](https://www.khanacademy.org/)
   
 
 
@@ -108,15 +119,19 @@ Every week there will be assigned problem sets. These will involve a mix of math
 
 #### Group project: 30 points 
 
-The final project will involve building a model to understand some system. The choice of system, modeling approach, and question will be up to each team. The teams will be between 2-3 students. Think of this project as an opportunity that could lead to a publication.
+The final project will involve building a model to understand some system. The choice of system, modeling approach, and question will be up to each team. The teams will be between 2-3 students. Think of this project as an opportunity that could lead to a publication. More details will be given in class.
 
 #### Teaching a lesson: 30 points
 
-Everyone will be expected to teach one class (or lab) during the course of the semester. The specific lesson will be chosen by the student. The student will work with the instructor to design the lesson in line with learning outcomes for the course. 
+Each student will be expected to teach one class (or lab) during the course of the semester. The specific lesson will be chosen by the student. The student will work with the instructor to design the lesson in line with learning outcomes for the course. 
 
 #### Participation: 30 points
 
-Students will be expected to be engaged...
+Students will be expected to be engaged each class period. This will involve participating in discussions and group activities.
+
+
+
+
 
 
 # Academic honesty

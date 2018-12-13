@@ -1,32 +1,33 @@
-Class,Date,Topic,Assignment,Readings
-1,14-Jan, Introduction to course and modeling philosophy,Watch video at home and read papers, [Levins 1966](https://www.jstor.org/stable/pdf/27836590.pdf)
-2,16-Jan, Intro population ecology and single-species models,Start problem set,
-NA,21-Jan,No class,NA,NA
-3,23-Jan,Single-species models: in-class problem set,"Finish problem set, watch lecture video",[May 1974](http://science.sciencemag.org/content/sci/186/4164/645.full.pdf)
-4,28-Jan,Structured pop models,,[Crouse 1987](https://www.jstor.org/stable/pdf/1939225.pdf)
-5,30-Jan,Structured pop models,Finish problem set,[Hanski 1998](http://www.zoology.ubc.ca/courses/bio416/Hanski_Nature_1998.pdf)
-6,4-Feb,Spatial ecology,,Species invasion spread speeds paper
-7,6-Apr,Spatial ecology,Mini-project,"Vellend et al 2003, Mittleback et al 2007"
-8,11-Feb,Patterns of biodiversity,,Classic lit on latitudinal species gradient
-9,13-Feb,Introduction to evolution,,
-10,18-Feb,No class,,
-11,20-Feb,Population Genetics,,"From Coop course, DEJA vu paper"
-11,25-Feb,Population Genetics,Problem set,Bay et al paper on modeling corals
-12,27-Feb,Quantitative Genetics,,Reznick et al 1997?
-13,4-Mar,Quantitative Genetics,Problem set,
-14,6-Mar,Game theory,Relax,
-NA,11-15 Mar,Spring Recess,NA,NA
-15,18-Mar,Speciation and infectious diseases,HIV problem set,
-16,20-Mar,Speciation and infectious diseases,,
-17,25-Mar,Species interactions and co-evolution,,
-18,27-Mar,Species interactions and co-evolution,,[Scheffer et al 2001](http://bio.classes.ucsc.edu/bioe107/Scheffer%202001%20Nature.pdf)
-19,1-Apr,Hystesis and regime shifts,Project proposals due,
-20,3-Apr,Hystesis and regime shifts,,
-21,8-Apr,Coupled models,R problem set,Coral reef and forest paper
-22,10-Apr,Coupled models,,
-23,15-Apr,Epidemiology,,[Kermack and McKendrick 1927]
-24,17-Apr,Epidemiology,Finish problem set,
-25,22-Apr,Flex-time,,
-26,24-Apr,Flex-time,,
-27,29-Apr,Presentations,NA,NA
-28,1-May,Presentations,NA,NA
+Class,Date,Topic,Assignment,Readings,Optional Readings
+0,NA,NA,Check out course website and read Levins 1966, [Levins 1966](https://www.jstor.org/stable/pdf/27836590.pdf),
+1,14-Jan, Introduction to course and modeling philosophy,Watch video at home and read papers,,
+2,16-Jan, Intro population ecology and single-species models,Start problem set,,
+NA,21-Jan,No class,NA,NA,
+3,23-Jan,Single-species models: in-class problem set,"Finish problem set, watch lecture video",[May 1974](http://science.sciencemag.org/content/sci/186/4164/645.full.pdf),
+4,28-Jan,Structured pop models,,[Crouse 1987](https://www.jstor.org/stable/pdf/1939225.pdf),
+5,30-Jan,Structured pop models,Finish problem set,[Hanski 1998](http://www.zoology.ubc.ca/courses/bio416/Hanski_Nature_1998.pdf),
+6,4-Feb,Spatial ecology,,Papers on UK invasive species,
+7,6-Apr,Spatial ecology,Mini-project,"Vellend et al 2003, Mittleback et al 2007",
+8,11-Feb,Patterns of biodiversity,,Classic lit on latitudinal species gradient,
+9,13-Feb,Introduction to evolution,,,
+10,18-Feb,No class,,,
+11,20-Feb,Population Genetics,,"From Coop course, DEJA vu paper",
+11,25-Feb,Population Genetics,Problem set,Bay et al ,
+12,27-Feb,Quantitative Genetics,,Reznick et al 1997,
+13,4-Mar,Quantitative Genetics,Problem set; Project proposal due,,
+14,6-Mar,Game theory,Relax,,
+NA,11-15 Mar,Spring Recess,NA,NA,
+15,18-Mar,Speciation and infectious diseases,HIV problem set,,
+16,20-Mar,Speciation and infectious diseases,,,
+17,25-Mar,Species interactions and co-evolution,,,
+18,27-Mar,Species interactions and co-evolution,,[Scheffer et al 2001](http://bio.classes.ucsc.edu/bioe107/Scheffer%202001%20Nature.pdf),
+19,1-Apr,Hystesis and regime shifts,Project updates,,
+20,3-Apr,Hystesis and regime shifts,,,
+21,8-Apr,Coupled models,R problem set,Coral reef and forest paper,
+22,10-Apr,Coupled models,,,
+23,15-Apr,Epidemiology,,[Kermack and McKendrick 1927],
+24,17-Apr,Epidemiology,Finish problem set,,
+25,22-Apr,TBD,,,
+26,24-Apr,TBD,,,
+27,29-Apr,Presentations,NA,NA,
+28,1-May,Presentations,NA,NA,
