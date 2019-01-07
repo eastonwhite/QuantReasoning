@@ -6,6 +6,11 @@ output: html_document
 
 For each date, the readings are what you should read for the next class period. For example, May 1974 should be read in advance of class on Jan 23rd. 
 
+Semester-long assignments (with mulitiple dates):
+
+* [Student-taught lesson](https://erwhite1.github.io/QuantReasoning/assignments/0_teaching_a_lesson.html) 
+* Team project (second-half of semester)
+
 ```{r echo = FALSE, results = 'asis',warning=FALSE,message=FALSE}
 library(knitr)
 library(kableExtra)
