@@ -1,0 +1,59 @@
+---
+editor_options:
+  chunk_output_type: console
+output:
+  html_document: null
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+2019
+
+BIO 381: Foundations of Quantitative Reasoning
+
+**Assignment: Teaching a Lesson** 
+
+Easton White
+
+___
+
+
+# Introduction
+
+For this assignment, you will teach a lesson to the rest of the class. This is important for two reasons. First, we have a diversity of backgrounds in this class. If each student teaches a lesson, we can better harness this diversity and learn from one another. And second, teaching a lesson will help you develop your teaching skills in a low-stakes setting. 
+
+By the end of week two, students will choose a topic that they will teach. This will be in consultation with the instructor. In class, the instructor will spend a class period giving a basic introduction to pedagogy and curriculum design. This will include active learning, backwards design, and lesson planning. Each student will be required to submit a lesson plan for approval from the instructor. The instructor and student will then refine the lesson plan together. The student will deliver the lesson in class. After the lesson, the student will reflect on what worked well. 
+
+# Timeline
+
+Date          | Assignment     | Points
+------------- | -------------  | ------------- 
+23-Jan        | Submit topic via email | 1 point
+1 Week before lesson  | Submit rough draft lesson plan | 4 points
+Day of lesson | Submit final draft lesson plan, teach lesson | 25 points
+
+
+# Grading rubric
+
+The lesson plan and teaching the lesson will be worth 25 points. The grading breakdown is as follows:
+
+Item | Points
+--------- | ----------
+Clear lesson plan with learning objectives | 5 points
+Learning objectives clearly presented in class | 1 points
+Evidence of knowledge in subject area | 4 points
+Use of active learning activity in lesson | 5 points
+Overall presentation (speed, clarity, answering questions) | 5 points
+Reflection on how the lesson went | 5 points
+
+The reflection is due the next class period and can be emailed to the instructor. It will consist of a half-page write-up addressing the following questions:
+
+1. What went well in the lesson and why?
+
+2. What could be improved and why?
+
+3. What would you do differently next time (in the preparation, delivery, etc)?
+

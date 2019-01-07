@@ -1,7 +1,7 @@
 Class,Date,Topic,Assignment,Readings,Optional
 0,NA,NA,Check out course website and read Levins 1966, [Levins 1966](https://github.com/erwhite1/QuantReasoning/blob/master/readings/Levins%20-%201966%20-%20The%20strategy%20of%20model%20building%20in%20population%20biology.pdf),[Pielou 1981](https://github.com/erwhite1/QuantReasoning/blob/master/readings/1981_Pielou_useful_of_ecological_models.pdf);[Kareiva 1989](https://github.com/erwhite1/QuantReasoning/blob/master/readings/1989_Kareiva_dialogue_between_theory_and_experiments.pdf)
-1,14-Jan,Introduction to course and modeling philosophy,Watch lecture at home,,
-2,16-Jan,Single-species models: discrete-time,Start problem set,[May 1974](http://science.sciencemag.org/content/sci/186/4164/645.full.pdf),
+1,14-Jan,Introduction to course and modeling philosophy,"Watch lecture at home, read paper",[Brook & Bradshaw 2006](https://github.com/erwhite1/QuantReasoning/blob/master/readings/2006_Brook_Bradshaw_density_dependence_in_time_series.pdf),
+2,16-Jan,Single-species models: discrete-time,"Finish problem set, watch lecture at home, read papers",[May 1974](http://science.sciencemag.org/content/sci/186/4164/645.full.pdf);[Beninca et al 2008](https://github.com/erwhite1/QuantReasoning/blob/master/readings/2008_Beninca_et_al_chaos_in_plankton_experiment.pdf),[Hastings et al 1993](https://github.com/erwhite1/QuantReasoning/blob/master/readings/1993_Hastings_et_al_chaos_in_ecology.pdf)
 NA,21-Jan,No class,NA,NA,
 3,23-Jan,Single-species models: continuous time,"Finish problem set, watch lecture video",,
 4,28-Jan,Structured pop models,,[Crouse 1987](https://www.jstor.org/stable/pdf/1939225.pdf),
@@ -18,7 +18,7 @@ NA,21-Jan,No class,NA,NA,
 14,6-Mar,Game theory,Relax,,
 NA,11-15 Mar,Spring Recess,NA,NA,
 15,18-Mar,Speciation and infectious diseases,,,
-16,20-Mar,Speciation and infectious diseases,HIV problem set,[Benica et al 2015](https://github.com/erwhite1/QuantReasoning/blob/master/readings/2013_Vellend_et_al_no_net_change_local_plant_biodiversity.pdf); [Vellend et al 2013](https://github.com/erwhite1/QuantReasoning/blob/master/readings/2015_Beninca_et_al_Species_fluctuations_chaos.pdf),
+16,20-Mar,Speciation and infectious diseases,HIV problem set,[Vellend et al 2013](https://github.com/erwhite1/QuantReasoning/blob/master/readings/2013_Vellend_et_al_no_net_change_local_plant_biodiversity.pdf); [Beninca et al 2015](https://github.com/erwhite1/QuantReasoning/blob/master/readings/2015_Beninca_et_al_Species_fluctuations_chaos.pdf),
 17,25-Mar,Species interactions and co-evolution,,,
 18,27-Mar,Species interactions and co-evolution,Problem set,[Scheffer et al 2001](http://bio.classes.ucsc.edu/bioe107/Scheffer%202001%20Nature.pdf),
 19,1-Apr,Hystesis and regime shifts,Project updates,,
