@@ -79,12 +79,4 @@ $$
 
 
 
-### 4. Sterile insect release 
-
-One strategy to combat problematic insect species (like malaria-carrying mosquitos) is to release sterile males to overwhelm the population (citation). The equation below denotes the number of females (*F*), number of males (*M*), birth rate (*b*), and death rate (*d*). Determine the equilbrium points and the stability of each for the equation. Which equilibrium point tells you the critical threshold for population extinction? How does this relate to the Allee effect?
-
-$$
-N(t+1) = b\frac{N}{N+M} - d
-$$
-
 
