@@ -8,4 +8,5 @@
 setwd("/Users/eastonwhite/Desktop/School/UVM/QuantReasoning")
 
 #render your sweet site.
-rmarkdown::render_site()
+rmarkdown::render_site() 
+
