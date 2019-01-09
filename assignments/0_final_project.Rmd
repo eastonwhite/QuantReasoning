@@ -1,0 +1,55 @@
+---
+editor_options:
+  chunk_output_type: console
+output:
+  html_document: null
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+2019
+
+BIO 381: Foundations of Quantitative Reasoning
+
+**Assignment: Final project** 
+
+Easton White
+
+___
+
+
+# Introduction
+
+The capstone assignment of this course is a group project. Most of the work will be done during the second half of the semester. Groups will consist of 2-3 students and should include a mix of those with from biology and those with mathematical/programming backgrounds. Project ideas can include anything that involves the use of mathematical models. Specific topic choices will be submitted and approved by the instructor. Ideally, projects will focus on interesting problems that could for the basis of a thesis chapter or manuscript. These could be based on student research interests or case studies developed in class.
+
+This assignment has several small deadlines, but will culminate with a written document and presentation. 
+
+Things to be done: form teams and brainstorm ideas, submit project idea (question to address, importance of question, modeling approach and reason for it), submit rough draft, submit final draft, present in class, reflect on the project
+
+# Timeline
+
+Date          | Assignment     | Points
+------------- | -------------  | ------------- 
+XX-Mar        | Submit topic via email | 1 point
+1 Week before lesson  | Submit rough draft lesson plan | 4 points
+Day of lesson | Submit final draft lesson plan, teach lesson | 25 points
+
+
+# Grading rubric
+
+The lesson plan and teaching the lesson will be worth 25 points. The grading breakdown is as follows:
+
+Item | Points
+--------- | ----------
+Clear lesson plan with learning objectives | 5 points
+Learning objectives clearly presented in class | 1 points
+Evidence of knowledge in subject area | 4 points
+Use of active learning activity in lesson | 5 points
+Overall presentation (speed, clarity, answering questions) | 5 points
+Reflection on how the lesson went | 5 points
+
+
+

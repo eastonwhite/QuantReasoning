@@ -1,0 +1,90 @@
+---
+output: 
+  html_document:
+    fig.caption: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Problem set 1: Single-species models in discrete time
+
+---
+
+
+
+### 1. Modify the following code to determine the long-term behavior of the discrete-time logistic growth model. In the example below, the population moves towards an equilbrium point. How does the long-term behavior change as you increase *r* slowly.
+
+```{r, echo = T, eval = T}
+# Parameters
+max_time = 50
+r = 1.4
+K = 1
+
+N = vector('numeric',length=max_time)
+N[1] = 0.1
+
+# Iterate model
+for (t in 1:max_time){
+  N[t+1] = r*N[t]*(1 - N[t]/K)
+}
+
+plot(N)
+
+```
+
+
+
+### 2. To show the results in question 1 more clearly, write R code to build a plot of the equilibrium value versus the value for $r$. To do this, run the model for 50 years, and only plot the last 10 years. If the solution is an equilibrium point, all 10 years should be the same value.s
+
+
+
+
+
+### 3. Fisheries example
+
+```{r cod_pop,echo=T,eval=T,fig.cap="Left: Canadian Atlantic cod population (in tonnes) over time and Right: Phase plane plot of the Atlantic cod population"}
+cod_pop <- c(1450, 1420, 1050, 2643, 1060, 1080, 1410, 1150, 740, 175, 43, 10, 12, 15, 16, 16, 28, 30, 32, 23, 12, 19, 27)
+years <- c(1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 
+1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 
+2004, 2005)
+
+par(mfrow=c(1,2))
+plot(years,cod_pop,ylim=c(0,3000),las=1,ylab='Population (tonnes)',xlab='Time (years)',pch=16)
+plot(cod_pop[1:(length(cod_pop)-1)],cod_pop[2:length(cod_pop)],ylab='N[t+1]',xlab='N[t]',las=1,pch=16)
+
+mtext(text = 'Atlantic cod population - Canada',side = 3,line = -3,outer=T)
+```
+
+
+
+
+
+In order to increase fisheries yields, models of fish populations have been used. Two common models are Beverton-Holt and the Ricker. Here we will use the Beverton-Holt model with parameters *a* and *b*:
+
+$$
+N(t+1) = \frac{a N(t)}{1 + b N(t)} 
+$$
+
+You have two questions to address:
+
+#### 3a) What are the parameter values (*a* and *b*) that best fit the data in phase plane diagram above?
+
+#### 3b) For the best fit model, what is the optimal level of harvesting (*h*) that maximizes yield and prevents the population from going below 100 tonnes over a 50 year period? Use the modified Beverton-Holt model with a harvesting rate of *h*:
+$$
+N(t+1) = (1-h) \frac{a N(t)}{1 + b N(t)} 
+$$
+
+
+
+### 4. Sterile insect release 
+
+One strategy to combat problematic insect species (like malaria-carrying mosquitos) is to release sterile males to overwhelm the population (citation). The equation below denotes the number of females (*F*), number of males (*M*), birth rate (*b*), and death rate (*d*). Determine the equilbrium points and the stability of each for the equation. Which equilibrium point tells you the critical threshold for population extinction? How does this relate to the Allee effect?
+
+$$
+N(t+1) = b\frac{N}{N+M} - d
+$$
+
+
