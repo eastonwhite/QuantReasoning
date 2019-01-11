@@ -42,7 +42,7 @@ email: Easton.White@uvm.edu
 
 Time: M/W 3:00-5:00pm Hills 226 and F 2:30-4:30pm Jeffords 353A
 
-Office hours: TBD
+Office hours: M/W 1:30-2:50pm Jeffords 253A or by appointment
  
 
 
@@ -89,9 +89,7 @@ By its very nature, this course will challenge each student during different poi
 
 I will hold office hours several times per week (time to be determined) and I am always happy to set up additional times to meet. Please ask for help, early and often. If you have a question, others in the class surely have the same one. There will be several opportunities to provide formal feedback on the course, but at any point, please reach out to let me know how I might improve the course. Email is the best way to get a hold of me. You can expect a response within 24 hours except on weekends and holidays when I do not check my email.
 
-#### R office hours
-
-In addition to normal office hours, every other week there will be an R work time in Jeffords. This is a time to get help on R for this class, other classes, or for your research. Occasionally, mini-workshops on various R topics will also be taught during this time. 
+ 
 
 #### Various textbooks
 
