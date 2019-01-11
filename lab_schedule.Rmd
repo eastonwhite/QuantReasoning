@@ -4,6 +4,8 @@ output: html_document
 
 # Lab schedule
 
+Topics that will be covered: advanced Git, R markdown, model fitting, probability theory, scales in ecology, Fermi estimation, Bayes theorem, sampling bias, statistical power, pedagogy
+
 ```{r echo = FALSE, results = 'asis',warning=FALSE,message=FALSE}
 library(knitr)
 library(kableExtra)
