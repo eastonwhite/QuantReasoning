@@ -2,7 +2,6 @@
 .Rhistory
 .DS_store
 easton_files/*
-lectures/*
 *answers.Rmd
 *answers.html
 *answers.pdf
