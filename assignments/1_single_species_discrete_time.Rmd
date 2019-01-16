@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r, echo = T, eval = T}
 # Parameters
 max_time = 50
-r = 1.4
+r = 0.4
 K = 1
 
 N = vector('numeric',length=max_time)
@@ -28,7 +28,7 @@ N[1] = 0.1
 
 # Iterate model
 for (t in 1:max_time){
-  N[t+1] = r*N[t]*(1 - N[t]/K)
+  N[t+1] = N[t] + r*N[t]*(1 - N[t]/K)
 }
 
 plot(N)
