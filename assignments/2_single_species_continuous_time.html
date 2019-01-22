@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="" />
+<meta property="og:type" content="book" />
+
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+
+<meta name="description" content="">
+
+<title></title>
+
+<link href="libs/tufte-css-2015.12.29/tufte-fonts.css" rel="stylesheet" />
+<link href="libs/tufte-css-2015.12.29/tufte-background.css" rel="stylesheet" />
+<link href="libs/tufte-css-2015.12.29/tufte-italics.css" rel="stylesheet" />
+<link href="libs/tufte-css-2015.12.29/tufte.css" rel="stylesheet" />
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+
+
+</head>
+
+<body>
+
+
+
+<div class="row">
+<div class="col-sm-12">
+<!--bookdown:toc:end-->
+<!--bookdown:toc:start-->
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<!--bookdown:title:end-->
+<!--bookdown:title:start-->
+<p><strong>Problem set 2: Single-species models in continuous time</strong></p>
+<hr />
+<ol style="list-style-type: decimal">
+<li>Exponential growth in cancer</li>
+</ol>
+<p>Imagine you are applying your ecology and evolution knowledge to better understand the development of cancer (a burgeoning new field actually<label for="tufte-sn-1" class="margin-toggle sidenote-number">1</label><input type="checkbox" id="tufte-sn-1" class="margin-toggle"><span class="sidenote"><span class="sidenote-number">1</span> Merlo et al., 2006. Cancer as an evolutionary and ecological process. Nature reviews cancer, 6(12), p.924.</span>). After metastasizing, cancer spread throughout the body, a single cancer cell reached the patient’s colon. The cancer cell now divides and grows at an exponential rate. Spratt et. al (1996) found that colon cancer had an average doubling time of 109 days. Assume a lethal cancer size is on the order of <span class="math inline">\(1 \text{x} 10^{12}\)</span> (1 000 000 000 000) cells. How long will it take for the colon tumor to reach this lethal size if left untreated?</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Sterile insect release</li>
+</ol>
+<p>One strategy to combat problematic insect species (like malaria-carrying mosquitoes) is to release sterile males to overwhelm the population<label for="tufte-sn-2" class="margin-toggle sidenote-number">2</label><input type="checkbox" id="tufte-sn-2" class="margin-toggle"><span class="sidenote"><span class="sidenote-number">2</span> This approach is being used to control Aedes aegypti and Aedes albopictus mosquitoes in the hopes of preventing dengue and yellow fever</span>. The equation below denotes the number of females (<em>F</em>), number of males (<em>M</em>), birth rate (<em>b</em>), and death rate (<em>d</em>). Determine the equilibrium points and the stability of each for the equation. Which equilibrium point tells you the critical threshold for population extinction? How does this relate to the Allee effect?</p>
+<p><span class="math display">\[
+\frac{dN}{dt} = b\frac{N}{N+M} - d
+\]</span></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Sterile insect release with competition</li>
+</ol>
+<p>The previous problem did not include any negative density-dependence. To test this assumption, we can include competition in our previous problem. Assuming N=0 is an equilbium point (if N=0, it will not change), modify the code below to estimate the two other equilbrium points and each of their stability. If the population drops below 0, assume it went extinct. You can modify both the initial state value for N or the amount of time (times object) to run the model. When you know the equilbrium points and their stability, sketch a plot of <span class="math inline">\(b\frac{N}{N+M} - d - cN\)</span> versus <span class="math inline">\(N\)</span> and show the equilibrium points as open (unstable) or closed (stable) balls.</p>
+<p><span class="math display">\[
+\frac{dN}{dt} = b\frac{N}{N+M} - d - cN
+\]</span></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">require</span>(deSolve)</code></pre></div>
+<pre><code>## Loading required package: deSolve</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Initial values</span>
+state &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dt">N=</span><span class="dv">8</span>)
+times &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="dv">0</span>,<span class="dv">100</span>,<span class="dt">by=</span><span class="fl">0.1</span>)
+
+<span class="co"># Parameters</span>
+parameters &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dt">b =</span> <span class="fl">2.4</span>,<span class="dt">c=</span><span class="fl">0.02</span>,<span class="dt">M=</span><span class="dv">50</span>,<span class="dt">d=</span><span class="fl">0.2</span>)
+
+<span class="co"># Model</span>
+sterile_insect &lt;-<span class="st"> </span><span class="cf">function</span>(t,state,parameters){
+  <span class="kw">with</span>(<span class="kw">as.list</span>(<span class="kw">c</span>(state,parameters)),{
+       dN &lt;-<span class="st"> </span>b<span class="op">*</span>N<span class="op">/</span>(N<span class="op">+</span>M) <span class="op">-</span><span class="st"> </span>d <span class="op">-</span><span class="st"> </span>c<span class="op">*</span>N
+      <span class="kw">list</span>(<span class="kw">c</span>(dN))   
+  })}
+
+<span class="co"># Solve model and plot results</span>
+out &lt;-<span class="st"> </span><span class="kw">ode</span>(<span class="dt">y =</span> state,<span class="dt">times=</span>times,<span class="dt">func=</span>sterile_insect,<span class="dt">parms=</span>parameters)
+<span class="kw">par</span>(<span class="dt">mfrow=</span><span class="kw">c</span>(<span class="dv">1</span>,<span class="dv">1</span>))
+<span class="kw">plot</span>(out[,<span class="dv">1</span>],out[,<span class="dv">2</span>],<span class="dt">ylab=</span><span class="st">&#39;N&#39;</span>,<span class="dt">xlab=</span><span class="st">&#39;time&#39;</span>,<span class="dt">las=</span><span class="dv">1</span>)</code></pre></div>
+<p><img src="2_single_species_continuous_time_files/figure-html/unnamed-chunk-1-1.png" width="672"  /></p>
+<p><label for="tufte-sn-3" class="margin-toggle sidenote-number">3</label><input type="checkbox" id="tufte-sn-3" class="margin-toggle"><span class="sidenote"><span class="sidenote-number">3</span> Problems 2 and 3 were borrowed from Sebastian Schreiber</span></p>
+<p style="text-align: center;">
+</p>
+</div>
+</div>
+
+
+
+</body>
+</html>

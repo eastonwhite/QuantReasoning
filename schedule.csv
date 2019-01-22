@@ -3,7 +3,7 @@ Class,Date,Topic,Assignment_Due,Readings_Due,Optional
 2,16-Jan,Single-species models: discrete-time,"[Watch lecture at home](https://youtu.be/-XXT2m_L4ks), read paper",[Brook & Bradshaw 2006](https://github.com/erwhite1/QuantReasoning/blob/master/readings/2006_Brook_Bradshaw_density_dependence_in_time_series.pdf),
 NA,21-Jan,No class,,,
 3,23-Jan,Single-species models: continuous time,"[Problem set 1](https://erwhite1.github.io/QuantReasoning/assignments/1_single_species_discrete_time.html), read papers, teaching topic due",[May 1974](http://science.sciencemag.org/content/sci/186/4164/645.full.pdf);[Beninca et al 2008](https://github.com/erwhite1/QuantReasoning/blob/master/readings/2008_Beninca_et_al_chaos_in_plankton_experiment.pdf),[Hastings et al 1993](https://github.com/erwhite1/QuantReasoning/blob/master/readings/1993_Hastings_et_al_chaos_in_ecology.pdf)
-4,28-Jan,Structured pop models,Problem set 2; watch lecture at home; read paper,[Crouse 1987](https://www.jstor.org/stable/pdf/1939225.pdf),
+4,28-Jan,Structured pop models,[Problem set 2](https://erwhite1.github.io/QuantReasoning/assignments/2_single_species_continuous_time.html); read paper; [Watch video on matrix algebra](https://www.youtube.com/watch?v=1cLLcP5rMM4),[Crouse 1987](https://www.jstor.org/stable/pdf/1939225.pdf),
 5,30-Jan,Structured pop models,,,
 6,4-Feb,Spatial ecology,Problem set 3,[Hanski 1998](http://www.zoology.ubc.ca/courses/bio416/Hanski_Nature_1998.pdf),Harrison et al 1991
 7,6-Apr,Spatial ecology,,,
