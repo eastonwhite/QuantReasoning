@@ -1,0 +1,60 @@
+---
+output:
+  bookdown::tufte_html_book:
+    fig.caption: yes
+    toc: no
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+**Problem set 3: Structured population models**
+
+Easton R. White
+
+Foundations of Quantitative Reasoning
+
+---
+
+Matrix population models^[Caswell 2001. Matrix Population Models. Sunderland, MA: Sinauer Associates Inc. is the best reference on all things matrix models.] are widely used to study plant and animal populations. 
+
+
+**Assignment**
+
+In teams of two, address the following questions:
+
+a) What species (and location if available) did you choose? Why did you choose the species?
+b) What question do you want to answer about this population (e.g. population status, best management strategies)?
+c) Calculate eigenvalue, stable age distribution, elasticity, and sensitivity. What does this tell you about the population? 
+d) Using the calculations in part (c), or additional calculations, address the question you proposed in part (b).
+
+Submit your writeup as an R markdown file on Github. This can be a private or public repository. I expect to see commits to the repository from each partner. 
+
+
+**Data**
+
+There are two databases of matrix models you can investigate: COMPADRE (plant-focused) and COMADRE (animal-focused). They are both available online https://www.compadre-db.org/Data. The data is downloaded as an .Rdata file. Each file is then organized as follows:
+
+    compadre/comadre +-- metadata {dataframe with ca 60 columns and one row one for each set of matrices (mat A, matU, matF, matC)
+             |
+             +-- matrixClass {list with one entry for each set of matrices. Each entry is a data frame with 3 columns: MatrixClassOrganized, MatrixClassAuthor, MatrixClassNumber.}
+             |
+             |-- mat {list with one entry for each row of metadata}
+             |     |
+             |     +-- matA {matrix}
+             |     +-- matU {matrix}
+             |     +-- matF {matrix}
+             |     \-- matC {matrix}
+             |
+              \-- version {a vector with version information}
+
+
+
+Therefore, as an example, to access the list of common names, you would enter `comadre$metadata$CommonName`. To find the matrix model of the 901st population in the database, you would enter `comadre$mat[901][[1]]`. More information on the databases is available online: https://github.com/jonesor/compadreDB
+
+
+
