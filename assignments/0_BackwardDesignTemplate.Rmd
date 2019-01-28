@@ -1,0 +1,56 @@
+---
+editor_options:
+  chunk_output_type: console
+output:
+  html_document: null
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+2019
+
+BIO 381: Foundations of Quantitative Reasoning
+
+**Assignment: Backward Design Lesson Plan** 
+
+___
+
+Name: Easton White
+
+Title: Chaos in ecology
+
+### Step 1: Expected outcomes
+
+By the end of the lesson, students should be able to:
+
+- explain the meaning and potential importance of chaos
+- provide examples of chaos in ecology
+- recognize chaos in outcomes of simple population models
+
+
+### Step 2: Assessing outcomes
+
+Students will be assessed in two ways:
+
+- through a problem set focused on a model that generates chaos
+- during a discussion about a pair of papers
+
+### Step 3: Learning plan
+
+Before class students will read a pair of papers on chaos in ecology. In addition, students will complete a problem set at home where a simple model (logistic growth in discrete-time) generates chaos. These two tasks will set the stage for a discussion about chaos in class. The instructor will begin with a brief introduction of chaos (including definitions, importance, and video) to the class. This will include a series of active learning techniques:
+
+- think-pair-share exercise of student definition of chaos
+- discussion of papers read for class
+
+### Step 4: Reflections
+
+Eventual reflection on the following questions:
+
+1. What went well in the lesson and why?
+
+2. What could be improved and why?
+
+3. What would you do differently next time (in the preparation, delivery, etc)?

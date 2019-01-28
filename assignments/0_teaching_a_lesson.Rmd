@@ -32,7 +32,7 @@ By the end of week two, students will choose a topic that they will teach. This 
 Date          | Assignment     | Points
 ------------- | -------------  | ------------- 
 23-Jan        | Submit topic via email | 1 point
-1 Week before lesson  | Submit rough draft lesson plan | 4 points
+1 Week before lesson  | [Submit rough draft lesson plan](https://erwhite1.github.io/QuantReasoning/assignments/0_BackwardDesignTemplate.html) | 4 points
 Day of lesson | Submit final draft lesson plan, teach lesson | 25 points
 
 
@@ -57,3 +57,12 @@ The reflection is due the next class period and can be emailed to the instructor
 
 3. What would you do differently next time (in the preparation, delivery, etc)?
 
+
+# Additional resources
+
+If you would like additional resources on backwards design and active learning, here are a few of my favorites:
+
+- [Backward Design introduction](https://cft.vanderbilt.edu/guides-sub-pages/understanding-by-design/)
+- [Flipping the classroom](https://cft.vanderbilt.edu/guides-sub-pages/flipping-the-classroom/)
+- [Active learning introduction](https://cft.vanderbilt.edu/guides-sub-pages/active-learning/)
+- [Ecology and evolution specific](https://cpb.ucdavis.edu/news/resources-teaching-ecology-and-evolution)
