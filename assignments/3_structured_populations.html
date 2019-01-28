@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="" />
+<meta property="og:type" content="book" />
+
+
+
+
+
+
+
+
+<meta name="description" content="">
+
+<title></title>
+
+<link href="libs/tufte-css-2015.12.29/tufte-fonts.css" rel="stylesheet" />
+<link href="libs/tufte-css-2015.12.29/tufte-background.css" rel="stylesheet" />
+<link href="libs/tufte-css-2015.12.29/tufte-italics.css" rel="stylesheet" />
+<link href="libs/tufte-css-2015.12.29/tufte.css" rel="stylesheet" />
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+<div class="row">
+<div class="col-sm-12">
+<!--bookdown:toc:end-->
+<!--bookdown:toc:start-->
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<!--bookdown:title:end-->
+<!--bookdown:title:start-->
+<p><strong>Problem set 3: Structured population models</strong> Easton R. White Foundations of Quantitative Reasoning</p>
+<hr />
+<p>Matrix population models<label for="tufte-sn-1" class="margin-toggle sidenote-number">1</label><input type="checkbox" id="tufte-sn-1" class="margin-toggle"><span class="sidenote"><span class="sidenote-number">1</span> Caswell 2001. Matrix Population Models. Sunderland, MA: Sinauer Associates Inc. is the best reference on all things matrix models.</span> are widely used to study plant and animal populations.</p>
+<p><strong>Assignment</strong></p>
+<p>In teams of two, address the following questions:</p>
+<ol style="list-style-type: lower-alpha">
+<li>What species (and location if available) did you choose? Why did you choose the species?</li>
+<li>What question do you want to answer about this population (e.g. population status, best management strategies)?</li>
+<li>Calculate eigenvalue, stable age distribution, elasticity, and sensitivity. What does this tell you about the population?</li>
+<li>Using the calculations in part (c), or additional calculations, address the question you proposed in part (b).</li>
+</ol>
+<p>Submit your writeup as an R markdown file on Github. This can be a private or public repository. I expect to see commits to the repository from each partner.</p>
+<p><strong>Data</strong></p>
+<p>There are two databases of matrix models you can investigate: COMPADRE (plant-focused) and COMADRE (animal-focused). They are both available online <a href="https://www.compadre-db.org/Data" class="uri">https://www.compadre-db.org/Data</a>. The data is downloaded as an .Rdata file. Each file is then organized as follows:</p>
+<pre><code>compadre/comadre +-- metadata {dataframe with ca 60 columns and one row one for each set of matrices (mat A, matU, matF, matC)
+         |
+         +-- matrixClass {list with one entry for each set of matrices. Each entry is a data frame with 3 columns: MatrixClassOrganized, MatrixClassAuthor, MatrixClassNumber.}
+         |
+         |-- mat {list with one entry for each row of metadata}
+         |     |
+         |     +-- matA {matrix}
+         |     +-- matU {matrix}
+         |     +-- matF {matrix}
+         |     \-- matC {matrix}
+         |
+          \-- version {a vector with version information}</code></pre>
+<p>Therefore, as an example, to access the list of common names, you would enter <code>comadre$metadata$CommonName</code>. To find the matrix model of the 901st population in the database, you would enter <code>comadre$mat[901][[1]]</code>. More information on the databases is available online: <a href="https://github.com/jonesor/compadreDB" class="uri">https://github.com/jonesor/compadreDB</a></p>
+<p style="text-align: center;">
+</p>
+</div>
+</div>
+
+
+
+</body>
+</html>
