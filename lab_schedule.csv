@@ -4,7 +4,11 @@ Week,Date,Main Topic,Mini-lesson
 3,1-Feb,Probability theory,Pedagogy
 4,8-Feb,Bayesian statistics (Emily Beasley),
 5,15-Feb,No class,No class
+<<<<<<< HEAD
 6,22-Feb,Pop Gen activity (read [2010 Jablonski and Chaplin](https://github.com/erwhite1/QuantReasoning/blob/master/readings/2010 Jablonski and Chaplin - human skin pigmentation and UV radiation.pdf) in advance and [optional TED talk](https://www.ted.com/talks/nina_jablonski_breaks_the_illusion_of_skin_color?language=en)),
+=======
+6,22-Feb,Pop Gen activity,
+>>>>>>> 1b3fcb07091345a0cc77acbd36a3e2b0b2649aaf
 7,1-Mar,Tidyverse (Brendan),
 8,8-Mar,No class,No class
 ,15-Mar,No class,No class
