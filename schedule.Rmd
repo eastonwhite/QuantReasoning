@@ -1,11 +1,7 @@
 ---
-<<<<<<< HEAD
 output:
   html_document: default
   pdf_document: default
-=======
-output: html_document
->>>>>>> 1b3fcb07091345a0cc77acbd36a3e2b0b2649aaf
 ---
 
 # Schedule
