@@ -9,7 +9,7 @@ output:
 Semester-long assignments (with mulitiple dates):
 
 * [Student-taught lesson](https://erwhite1.github.io/QuantReasoning/assignments/0_teaching_a_lesson.html) 
-* Team project (second-half of semester)
+* [Team project (second-half of semester)](https://erwhite1.github.io/QuantReasoning/assignments/0_final_project.html) 
 
 ```{r echo = FALSE, results = 'asis',warning=FALSE,message=FALSE}
 library(knitr)
