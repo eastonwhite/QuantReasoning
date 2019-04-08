@@ -7,5 +7,3 @@ navbar:
       href: syllabus.html
     - text: "Schedule"
       href: schedule.html
-    - text: "Lab schedule"
-      href: lab_schedule.html
