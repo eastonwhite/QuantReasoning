@@ -34,15 +34,15 @@ htmltools::img(src = knitr::image_uri(file.path('images/QuEST_logo.png')),
 
 University of Vermont
 
-Spring 2019
+Fall 2019
 
 Instructor: __Dr. Easton R. White__
 
 email: Easton.White@uvm.edu
 
-Time: M/W 3:00-5:00pm Hills 226 and F 2:30-4:30pm Jeffords 353A
+Time: M/W/F 1:10-3:00pm Location TBD 
 
-Office hours: M/W 1:30-2:50pm Jeffords 253A or by appointment
+Office hours: TBD Jeffords 253A or by appointment
  
 
 
@@ -106,24 +106,22 @@ Calculus a bit rusty? Maybe you're not totally remembering Mendelian genetics? S
 
 * [Paul's Online Notes](http://tutorial.math.lamar.edu/)
 * [Khan Academy](https://www.khanacademy.org/)
+* [Software Carpentry computational tools material](https://software-carpentry.org/lessons/)
   
 
 
 # Grading Standards and Practices
 
-#### Problem sets: 12 @ 5 points each
+#### Problem sets: 10 @ 5 points each
 
 Every week there will be assigned problem sets. These will involve a mix of math done on paper and programming in R. The problem sets will either be turned in on paper or on Github depending on the assignment. Some problem sets will be individual-based and others will be in small teams.
 
-#### Group project: 30 points 
+#### Group project: 25 points 
 
 The final project will involve building a model to understand some system. The choice of system, modeling approach, and question will be up to each team. The teams will be between 2-3 students. Think of this project as an opportunity that could lead to a publication. More details will be given in class.
 
-#### Teaching a lesson: 30 points
 
-Each student will be expected to teach one class (or lab) during the course of the semester. The specific lesson will be chosen by the student. The student will work with the instructor to design the lesson in line with learning outcomes for the course. 
-
-#### Participation: 30 points
+#### Participation: 25 points
 
 Students will be expected to be engaged each class period. This will involve participating in discussions and group activities.
 
