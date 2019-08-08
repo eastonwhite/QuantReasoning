@@ -13,7 +13,7 @@ htmltools::img(src = knitr::image_uri(file.path('images/QuEST_logo.png')),
 # **Foundations of Quantitative Reasoning (BIO381)**
 
 #### Dr. Easton R White 
-#### Spring 2019 
+#### Fall 2019 
 #### University Of Vermont
 
 <br><br><br><br>
