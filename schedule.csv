@@ -1,7 +1,7 @@
 Class,Date,Topic,Assignment_Due,Readings_Due,Optional
 1,"Monday, 26 August",Introduction to course and pre-test,Check out course website ,,
-2,"Wednesday, 28 August",Models and biology,Read Levins 1966, [Levins 1966](https://github.com/erwhite1/QuantReasoning/blob/master/readings/Levins%20-%201966%20-%20The%20strategy%20of%20model%20building%20in%20population%20biology.pdf),[Pielou 1981](https://github.com/erwhite1/QuantReasoning/blob/master/readings/1981_Pielou_useful_of_ecological_models.pdf);[Kareiva 1989](https://github.com/erwhite1/QuantReasoning/blob/master/readings/1989_Kareiva_dialogue_between_theory_and_experiments.pdf)
-,"Thursday, 29 August",Software Carpentry Event (all day),,,
+2,"Wednesday, 28 August",Models and biology,[1 page essay assignment](https://github.com/eastonwhite/QuantReasoning/blob/master/assignments/WritingAssignment1_QuantReasoning.pdf) and read Levins 1966," [Levins 1966](https://github.com/eastonwhite/QuantReasoning/readings/1966_Levins_strategy_model_building_population_biology.pdf) ; <a href=""https://eastonwhite.github.io/readings/1966_Levins_strategy_model_building_population_biology.pdf""> Levins 1966</a> SIAM News</p>",[Pielou 1981](https://github.com/easton/QuantReasoning/blob/master/readings/1981_Pielou_useful_of_ecological_models.pdf);[Kareiva 1989](https://github.com/eastonwhite/QuantReasoning/blob/master/readings/1989_Kareiva_dialogue_between_theory_and_experiments.pdf)
+,"Thursday, 29 August",Software Carpentry Event (all day),[Pre-survey on workshop website](https://eastonwhite.github.io/2019-08-29-vermont/),,
 3,"Friday, 30 August",Software Carpentry Event (all day),,,
 ,"Monday, 2 September",No class - Holiday,,,
 4,"Wednesday, 4 September",Endangered species project,,,
