@@ -1,11 +1,11 @@
 Class,Date,Topic,Assignment_Due,Readings_Due,Optional
 1,"Monday, 26 August",Introduction to course and pre-test,Check out course website ,,
-2,"Wednesday, 28 August",Models and biology,[1 page essay assignment](https://github.com/eastonwhite/QuantReasoning/blob/master/assignments/WritingAssignment1_QuantReasoning.pdf) and read Levins 1966," [Levins 1966](https://github.com/eastonwhite/QuantReasoning/readings/1966_Levins_strategy_model_building_population_biology.pdf) ; <a href=""https://eastonwhite.github.io/readings/1966_Levins_strategy_model_building_population_biology.pdf""> Levins 1966</a> SIAM News</p>",[Pielou 1981](https://github.com/easton/QuantReasoning/blob/master/readings/1981_Pielou_useful_of_ecological_models.pdf);[Kareiva 1989](https://github.com/eastonwhite/QuantReasoning/blob/master/readings/1989_Kareiva_dialogue_between_theory_and_experiments.pdf)
+2,"Wednesday, 28 August",Models and biology,[1 page essay assignment](https://github.com/eastonwhite/QuantReasoning/blob/master/assignments/WritingAssignment1_QuantReasoning.pdf) and read Levins 1966,[Levins 1966](https://eastonwhite.github.io/QuantReasoning/readings/1966_Levins_strategy_model_building_population_biology.pdf) ,[Pielou 1981](https://github.com/eastonwhite/QuantReasoning/blob/master/readings/1981_Pielou_useful_of_ecological_models.pdf);[Kareiva 1989](https://github.com/eastonwhite/QuantReasoning/blob/master/readings/1989_Kareiva_dialogue_between_theory_and_experiments.pdf)
 ,"Thursday, 29 August",Software Carpentry Event (all day),[Pre-survey on workshop website](https://eastonwhite.github.io/2019-08-29-vermont/),,
 3,"Friday, 30 August",Software Carpentry Event (all day),,,
 ,"Monday, 2 September",No class - Holiday,,,
 4,"Wednesday, 4 September",Endangered species project,,,
-5,"Friday, 6 September",Single-species models: discrete-time,,,
+5,"Friday, 6 September",Single-species models: discrete-time,"[Watch lecture at home](https://youtu.be/-XXT2m_L4ks), read paper",[Brook & Bradshaw 2006](https://eastonwhite.github.io/QuantReasoning/readings/2006_Brook_Bradshaw_density_dependence_in_time_series.pdf),
 6,"Monday, 9 September",Single-species models: continuous-time,,,
 7,"Wednesday, 11 September",Structured pop models,,,
 8,"Friday, 13 September",Structured pop models,,,
