@@ -6,9 +6,9 @@ Class,Date,Topic,Assignment_Due,Readings_Due,Optional
 ,"Monday, 2 September",No class - Holiday,,,
 4,"Wednesday, 4 September",Endangered species project,,,
 5,"Friday, 6 September",Single-species models: discrete-time,"[Watch lecture at home](https://youtu.be/-XXT2m_L4ks), read paper",[Brook & Bradshaw 2006](https://eastonwhite.github.io/QuantReasoning/readings/2006_Brook_Bradshaw_density_dependence_in_time_series.pdf),
-6,"Monday, 9 September",Single-species models: continuous-time,"[Problem set 1](https://eastonwhite.github.io/QuantReasoning/assignments/1_single_species_discrete_time.html), [Problem set 1 Rmd](https://eastonwhite.github.io/QuantReasoning/assignments/1_single_species_discrete_time.Rmd) read papers",[May 1974](https://eastonwhite.github.io/QuantReasoning/readings/1974_May_complex_dynamics_in_nonoverlapping_generations.pdf);[Beninca et al 2008](https://eastonwhite.github.io/QuantReasoning/readings/2008_Beninca_et_al_chaos_in_plankton_experiment.pdf),[Hastings et al 1993](https://eastonwhite.github.io/QuantReasoning/readings/1993_Hastings_et_al_chaos_in_ecology.pdf)
-7,"Wednesday, 11 September",Structured pop models,,,
-8,"Friday, 13 September",Structured pop models,Problem set 2,,
+6,"Monday, 9 September",Single-species models: discrete-time,Rewatch lecture video and finish logistic model from class,,
+7,"Wednesday, 11 September",Single-species models: continuous-time,"[Problem set 1](https://eastonwhite.github.io/QuantReasoning/assignments/1_single_species_discrete_time.html), [Problem set 1 Rmarkdown file](https://eastonwhite.github.io/QuantReasoning/assignments/1_single_species_discrete_time.Rmd)",[May 1974](https://eastonwhite.github.io/QuantReasoning/readings/1974_May_complex_dynamics_in_nonoverlapping_generations.pdf);[Beninca et al 2008](https://eastonwhite.github.io/QuantReasoning/readings/2008_Beninca_et_al_chaos_in_plankton_experiment.pdf),[Hastings et al 1993](https://eastonwhite.github.io/QuantReasoning/readings/1993_Hastings_et_al_chaos_in_ecology.pdf)
+8,"Friday, 13 September",Multiple species,Problem set 2,,
 9,"Monday, 16 September",Species interactions (Natalia?),,,
 10,"Wednesday, 18 September",Spatial ecology,,,
 11,"Friday, 20 September",Spatial ecology,,,

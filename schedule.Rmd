@@ -8,7 +8,7 @@ output:
 
 Semester-long assignment (with mulitiple dates):
 
-* [Team project (second-half of semester)](https://erwhite1.github.io/QuantReasoning/assignments/0_final_project.html) 
+* [Team project (second-half of semester)](https://eastonwhite.github.io/QuantReasoning/assignments/0_final_project.html) 
 
 ```{r echo = FALSE, results = 'asis',warning=FALSE,message=FALSE}
 library(knitr)
