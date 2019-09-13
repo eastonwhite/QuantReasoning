@@ -24,7 +24,7 @@ Imagine you are applying your ecology and evolution knowledge to better understa
 
 2. Sterile insect release 
 
-One strategy to combat problematic insect species (like malaria-carrying mosquitoes) is to release sterile males to overwhelm the population^[This approach is being used to control Aedes aegypti and Aedes albopictus mosquitoes in the hopes of preventing dengue and yellow fever]. The equation below denotes the number of females (*F*), number of males (*M*), birth rate (*b*), and death rate (*d*). Determine the equilibrium points and the stability of each for the equation. Which equilibrium point tells you the critical threshold for population extinction? How does this relate to the Allee effect?
+One strategy to combat problematic insect species (like malaria-carrying mosquitoes) is to release sterile males to overwhelm the population^[This approach is being used to control Aedes aegypti and Aedes albopictus mosquitoes in the hopes of preventing dengue and yellow fever]. The equation below denotes the number of females (*N*), number of males (*M*), birth rate (*b*), and death rate (*d*). There is a single equilibrium point for this equatino. Determine the equilibrium point and whether or not it is stable. How does this relate to the Allee effect?
 
 
 
