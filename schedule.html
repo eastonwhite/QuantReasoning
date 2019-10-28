@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -84,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -244,18 +244,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -820,7 +808,6 @@ Wednesday, 23 October
 Friday, 25 October
 </td>
 <td style="text-align:left;width: 20em; ">
-Infectious disease dynamics
 </td>
 <td style="text-align:left;width: 20em; ">
 Begin working on final projects
@@ -838,7 +825,7 @@ Begin working on final projects
 Monday, 28 October
 </td>
 <td style="text-align:left;width: 20em; color: black !important;background-color: #E8E8E8 !important;">
-Infectious disease dynamics (SSWS project)
+Infectious disease dynamics
 </td>
 <td style="text-align:left;width: 20em; color: black !important;background-color: #E8E8E8 !important;">
 </td>
@@ -855,8 +842,10 @@ Infectious disease dynamics (SSWS project)
 Wednesday, 30 October
 </td>
 <td style="text-align:left;width: 20em; ">
+Infectious disease dynamics (project)
 </td>
 <td style="text-align:left;width: 20em; ">
+Outline of project (idea, data, approach)
 </td>
 <td style="text-align:left;width: 20em; ">
 </td>
@@ -871,7 +860,7 @@ Wednesday, 30 October
 Friday, 1 November
 </td>
 <td style="text-align:left;width: 20em; ">
-Hysteresis and regime shifts
+Lab
 </td>
 <td style="text-align:left;width: 20em; ">
 </td>
@@ -905,6 +894,7 @@ Hysteresis and regime shifts
 Wednesday, 6 November
 </td>
 <td style="text-align:left;width: 20em; ">
+Eco-evolutionary dynamics
 </td>
 <td style="text-align:left;width: 20em; ">
 </td>
@@ -938,7 +928,7 @@ Eco-evolutionary dynamics
 Monday, 11 November
 </td>
 <td style="text-align:left;width: 20em; ">
-Eco-evolutionary dynamics
+Socio-environmental systems
 </td>
 <td style="text-align:left;width: 20em; ">
 </td>
@@ -989,7 +979,7 @@ Socio-environmental systems
 Monday, 18 November
 </td>
 <td style="text-align:left;width: 20em; ">
-Socio-environmental systems
+Flex time
 </td>
 <td style="text-align:left;width: 20em; ">
 </td>
@@ -1006,7 +996,7 @@ Socio-environmental systems
 Wednesday, 20 November
 </td>
 <td style="text-align:left;width: 20em; ">
-Work time
+Flex time
 </td>
 <td style="text-align:left;width: 20em; ">
 </td>
@@ -1023,7 +1013,7 @@ Work time
 Friday, 22 November
 </td>
 <td style="text-align:left;width: 20em; ">
-Work time
+Flex time
 </td>
 <td style="text-align:left;width: 20em; ">
 </td>
@@ -1123,24 +1113,7 @@ Work time
 Friday, 6 December
 </td>
 <td style="text-align:left;width: 20em; ">
-Presentations (or more work time)
-</td>
-<td style="text-align:left;width: 20em; ">
-</td>
-<td style="text-align:left;width: 20em; ">
-</td>
-<td style="text-align:left;">
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-41
-</td>
-<td style="text-align:left;width: 5em; ">
-Sunday, 8 December
-</td>
-<td style="text-align:left;width: 20em; ">
-Presentations (or more work time)
+Presentations
 </td>
 <td style="text-align:left;width: 20em; ">
 </td>
@@ -1187,6 +1160,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
