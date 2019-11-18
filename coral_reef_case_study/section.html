@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="" />
+<meta property="og:type" content="book" />
+
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+
+<meta name="description" content="">
+
+<title></title>
+
+<link href="libs/tufte-css-2015.12.29/tufte-fonts.css" rel="stylesheet" />
+<link href="libs/tufte-css-2015.12.29/tufte-background.css" rel="stylesheet" />
+<link href="libs/tufte-css-2015.12.29/tufte-italics.css" rel="stylesheet" />
+<link href="libs/tufte-css-2015.12.29/tufte.css" rel="stylesheet" />
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+<div class="row">
+<div class="col-sm-12">
+<!--bookdown:toc:end-->
+<!--bookdown:toc:start-->
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="section" class="section level2">
+<h2></h2>
+<ol start="3" style="list-style-type: decimal">
+<li></li>
+</ol>
+<p>There are many parts of the system that could be included in a mathematical model to study conservation opinion. For simplicity, we will use a single differential equation to model conservation opinion. Here <span class="math inline">\(x\)</span> is the fraction of the individuals in the population willing to participate in coral conservation (and thus willing to reduce fishing pressures). Here <span class="math inline">\(C\)</span> is the live coral cover on the reef and <span class="math inline">\(P\)</span> is the number of parrotfish. We will assume these values are constant for now.</p>
+<p>Your first goal is to understand how the model relates to your flow diagram, then construct a new flow diagram to fit the model. Explain what mechanisms might explain which arrows point where in the flow diagram. Complete the parameter value descriptions in table 1.</p>
+<p><span class="math display">\[
+\frac{dx}{dt} = \kappa x (1 - x)(-1 + j (1-C) - \sigma P (1-x) + \phi (2x - 1)) 
+\]</span></p>
+<table>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th align="center">Description</th>
+<th align="right">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\kappa\)</span></td>
+<td align="center">_________________________</td>
+<td align="right">1.014/y</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(j\)</span></td>
+<td align="center">_________________________</td>
+<td align="right">1.68</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td align="center">Live coral cover</td>
+<td align="right">Try different values</td>
+</tr>
+<tr class="even">
+<td>P</td>
+<td align="center">Parrotfish abundance</td>
+<td align="right">Try different values</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\sigma\)</span></td>
+<td align="center">_________________________</td>
+<td align="right">0.5</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\phi\)</span></td>
+<td align="center">_________________________</td>
+<td align="right">0.2</td>
+</tr>
+</tbody>
+</table>
+<p>Table 1. Model parameter symbols, description, and estimated parameter values.</p>
+
+</div>
+<p style="text-align: center;">
+<a href="part-a.html"><button class="btn btn-default">Previous</button></a>
+<a href="section-1.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+
+</body>
+</html>
