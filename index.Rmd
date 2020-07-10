@@ -13,7 +13,7 @@ htmltools::img(src = knitr::image_uri(file.path('images/QuEST_logo.png')),
 # **Foundations of Quantitative Reasoning (BIO381)**
 
 #### Dr. Easton R White 
-#### Fall 2019 
+#### Fall 2020 
 #### University Of Vermont
 
 <br><br><br><br>
@@ -21,3 +21,5 @@ htmltools::img(src = knitr::image_uri(file.path('images/QuEST_logo.png')),
 Welcome to the Foundations of Quantitative Reasoning course. This course is designed to provide students with a solid background in both ecology and evolution as well as commonly used quantitative tools. This website will be updated throughout the semester. The [Schedule](https://eastonwhite.github.io/QuantReasoning/schedule.html) tab lists the topics covered and links to lecture material, assignments, and required readings.
 
 All the materials for this course are open-source on [Github](https://github.com/eastonwhite/QuantReasoning). Please drop Easton an email (Easton.White@uvm.edu) if you are interested in using the course materials.  
+
+__Note on COVID-19__: UVM is currently preparing for a combination of in-person and remote instruction in the Fall. Although the situation might change, this course will be offered as a hybrid. We will meet once a week in person (or online synchronously) and the other two days of instruction will be completely online. 

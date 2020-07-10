@@ -34,21 +34,23 @@ htmltools::img(src = knitr::image_uri(file.path('images/QuEST_logo.png')),
 
 University of Vermont
 
-Fall 2019
+Fall 2020
 
 Instructor: __Dr. Easton R. White__
 
 email: Easton.White@uvm.edu
 
-Class Time: M/W/F 1:10-3:00pm, Location: Marsh Life Sciences (MLS), room 226
+Class Time: M/W/F 1:10-3:10pm, Location: TBD (combination of in-person and remote)
 
 Office hours: Time: TBD, Location: Jeffords 347
  
+__Note on COVID-19__: UVM is currently preparing for a combination of in-person and remote instruction in the Fall. Although the situation might change, this course will be offered as a hybrid. We will meet once a week in person (or online synchronously) and the other two days of instruction will be completely online. 
+
 
 
 # Course Introduction
 
-Welcome to the [QuEST](https://www.uvm.edu/quest) Foundations of Quantitative Reasoning course. There are no specific prerequisites for this course, but students should have some experience programming in R, using Github, and with basic math and statistics. This course is designed to provide students with a solid background in both ecology and evolution as well as commonly used quantitative tools. By the end of the course, students should be able to:
+Welcome to the Foundations of Quantitative Reasoning course. Although listed as a graduate course, motivated undergraduates can also enroll, but should first reach out to the instructor. There are no specific prerequisites for this course, but students should have some experience programming in R, using Github, and with basic math and statistics. This course is designed to provide students with a solid background in both ecology and evolution as well as commonly used quantitative tools. By the end of the course, students should be able to:
 
 ### Concepts 
 1. Understand basic concepts in population and community ecology
@@ -69,7 +71,6 @@ Welcome to the [QuEST](https://www.uvm.edu/quest) Foundations of Quantitative Re
 12. Construct and program simple population models in R
 13. Understand and apply a variety of mathematical tools (equilibrium and stability analysis, linear algebra, stochastic models, etc.)
 14. Work in small, collaborative groups to find solutions to particular case studies.
-15. Apply basic pedagogy principles in designing a lesson
 
 
 This is clearly a lot of concepts and skills to cover in one semester. However, there will be lots of time to ask questions and to have discussions. The format of the class will change from day to day, but will include a combination of lecturing, problem-solving activities, discussions, and working in small groups. 
