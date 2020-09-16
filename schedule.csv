@@ -7,11 +7,11 @@ Class,Date,Topic,Assignment_Due,Readings_Due,Optional
 4,"Friday, September 11, 2020",Synchronous: Discussion,[1 page essay assignment](https://github.com/eastonwhite/QuantReasoning/blob/master/assignments/WritingAssignment1_QuantReasoning.pdf); [Complete R lessons 1-4](http://swcarpentry.github.io/r-novice-gapminder/),,
 5,"Monday, September 14, 2020",Asynchronous: Single-species models: discrete-time,"[Watch lecture at home](https://youtu.be/-XXT2m_L4ks), read paper",[Brook & Bradshaw 2006](https://eastonwhite.github.io/QuantReasoning/readings/2006_Brook_Bradshaw_density_dependence_in_time_series.pdf),
 6,"Wednesday, September 16, 2020",Single-species models: discrete-time,,,
-7,"Friday, September 18, 2020",Lab: Population dynamics ,[Complete R lessons 5-8](http://swcarpentry.github.io/r-novice-gapminder/),,[Hastings et al 1993](https://eastonwhite.github.io/QuantReasoning/readings/1993_Hastings_et_al_chaos_in_ecology.pdf)
+7,"Friday, September 18, 2020",Lab: Population dynamics + Rmarkdown,[Complete R lessons 5-8](http://swcarpentry.github.io/r-novice-gapminder/); [Start Problem set 1 - problems 1 and 2](https://eastonwhite.github.io/QuantReasoning/assignments/1_single_species_discrete_time.html),,
 8,"Monday, September 21, 2020",Asynchronous: Single-species models: continuous-time,,,
-9,"Wednesday, September 23, 2020",Synchronous: In-class discussion,,,
-10,"Friday, September 25, 2020",Lab: Collaborating on Github,[Complete R lessons 9-11](http://swcarpentry.github.io/r-novice-gapminder/),,
-11,"Monday, September 28, 2020",Asynchronous: Single-species models: continuous-time,,,
+9,"Wednesday, September 23, 2020",Synchronous: In-class discussion,Watch lecture at home; [Finish Problem set 1 - problems 1 and 2](https://eastonwhite.github.io/QuantReasoning/assignments/1_single_species_discrete_time.html); read papers,[May 1974](http://science.sciencemag.org/content/sci/186/4164/645.full.pdf);[Beninca et al 2008](https://github.com/eastonwhite/QuantReasoning/blob/master/readings/2008_Beninca_et_al_chaos_in_plankton_experiment.pdf),[Hastings et al 1993](https://github.com/eastonwhite/QuantReasoning/blob/master/readings/1993_Hastings_et_al_chaos_in_ecology.pdf)
+10,"Friday, September 25, 2020",Lab: Collaborating on Github,[Complete R lessons 9-11](http://swcarpentry.github.io/r-novice-gapminder/); Create a Github account online,,
+11,"Monday, September 28, 2020",Asynchronous: Single-species models: structured populations,,,
 12,"Wednesday, September 30, 2020",Synchronous: In-class discussion,,,
 13,"Friday, October 2, 2020",Lab: R lesson (dplyr and tidyr),,,
 14,"Monday, October 5, 2020",Aynchronous: Spatial ecology,,,
